@@ -16,8 +16,8 @@ putchar(c);
 }
 else
 {
-}
 putchar('\n');
+}
 return (0);
 }
 }
