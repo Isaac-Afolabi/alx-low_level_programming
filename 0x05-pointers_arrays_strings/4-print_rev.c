@@ -2,7 +2,7 @@
 /**
  * print_rev - prints a string in reversed order
  * @s: the used string reference pointer
- * Return: 0 (success)
+ * Return: 0
  */
 void print_rev(char *s)
 {
@@ -13,3 +13,4 @@ while (a--)
 _putchar(s[a]);
 _putchar('\n');
 }
+
