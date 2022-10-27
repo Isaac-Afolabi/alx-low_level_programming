@@ -6,19 +6,20 @@
  */
 char *rot13(char *s)
 {
-int m, n;
+int i, j;
 char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
-for (m = 0; *(s + m); m++)
+for (i = 0; *(s + i); i++)
 {
-for (n = 0; n < 52; n++)
+for (j = 0; j < 52; j++)
 {
-if (a[n] == *(s + m))
+if (a[j] == *(s + i))
 {
-*(s + n) = b[m];
+*(s + i) = b[j];
 break;
 }
 }
 }
 return (s);
 }
+
