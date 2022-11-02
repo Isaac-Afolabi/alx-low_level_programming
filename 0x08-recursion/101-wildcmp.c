@@ -2,7 +2,7 @@
 /**
  * str_checker - check if two strings are identical
  * @s1: first string base address
- * @s: second string base address
+ * @s2: second string base address
  * @i: left index
  * @j: special index
  * Return: 1 if s is palindrome, 0 otherwise
