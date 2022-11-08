@@ -72,11 +72,11 @@ create_word(words, str, start, i, j);
  */
 void create_word(char **words, char *str, int start, int end, int index)
 {
-int a, b;
-a = end - start;
-words[index] = (char *)malloc(sizeof(char) * (a + 1));
-for (b = 0; start < end; start++, b++)
-words[index][b] = str[start];
-words[index][b] = '\0';
+int i, j;
+i = end - start;
+words[index] = (char *)malloc(sizeof(char) * (i + 1));
+for (j = 0; start < end; start++, j++)
+words[index][j] = str[start];
+words[index][j] = '\0';
 }
 
