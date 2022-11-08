@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdlib.h>
+#include "main.h"
 /**
  * count_word - function to count the number of words in a string
  * @s: the string to evaluate
